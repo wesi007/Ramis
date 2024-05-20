@@ -31,6 +31,25 @@ body{
     position: relative;
 }
 
+.btn{
+    outline:none;
+    border: none;
+    border-radius: 5rem;
+    background: var(--color);
+    color: #fff;
+    cursor: pointer;
+    height: 3.5rem;
+    width:15rem;
+    font-size:1.7rem;
+    box-shadow: 0 .2rem .5rem rgba(0,0,0,.3)
+}
+
+.btn:hover{
+    letter-spacing: .1rem;
+    opacity: .8;
+}
+
+
 
 
 .header{
@@ -210,13 +229,33 @@ body{
         font-size: 2.5rem;
     }
 
-    .header .a-times{
+    .header .fa-times{
         transform: rotate(180deg);
     }
 
     .header .nav-tooggle{
         top: 5.4rem;
     }
+
+    .home .banner{
+        font-size:1.7rem;
+    }
+
+    .home .slogan{
+        font-size: 1.7rem;
+    }
+
+    .about .row{
+        flex-flow:column-reverse;
+        padding: 0 2rem;
+
+    }
+
+    .about .row .image img{
+        width: 100vw;
+    }
+
+
     }
 
 
