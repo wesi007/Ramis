@@ -6,6 +6,12 @@ $('.fa-bars').click(function(){
     $('.navbar').toggleClass('nav-tooggle');
 });
 
+$(window).on('load scroll',function(){
+    $('.fa-bars').removeClass('fa-times');
+    $('.navbar').removeClassClass('nav-tooggle');
+
+});
+
 
 
 
