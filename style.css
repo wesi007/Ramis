@@ -22,6 +22,17 @@ body{
     overflow-x: hidden;
 }
 
+.heading{
+    margin: 2rem;
+    padding-top: 6rem;
+    display: inline-block;
+    font-size: 3.5rem;
+    color: var(--color);
+    position: relative;
+}
+
+
+
 .header{
     display: flex;
     align-items: center;
@@ -84,6 +95,83 @@ body{
     position:relative;
     overflow: hidden;
 }
+
+.home .banner{
+    color: #fff;
+    font-size: 4rem;
+    text-shadow: 0 .3rem .5rem rgba(0,0,0,3);
+
+}
+
+.home .slogan{
+    color:#eee;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.home button{
+    height: 3rem;
+    width: 17rem;
+    background:#fff;
+    color:#555;
+    cursor:pointer;
+    border:none;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 300;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+}
+
+.home button:hover{
+    letter-spacing: .1rem;
+}
+
+
+
+.about{
+    min-height: 100vh;
+    width: 100vw;
+    text-align:center;
+    position: relative;
+    overflow: hidden;
+}
+
+.about .row{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    padding: 0 4rem;
+}
+
+.about .row .content{
+    text-align: left;
+}
+
+.about .row .image img{
+    width: 50vw;
+}
+
+.about .row .content h3{
+    font-size: 3rem;
+    color: var(--color);
+}
+
+.about .row .content p{
+    font-size: 1.5rem;
+    color: #333;
+    padding: 1rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
