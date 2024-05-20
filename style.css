@@ -22,6 +22,11 @@ body{
     overflow-x: hidden;
 }
 
+
+
+
+
+
 .heading{
     margin: 2rem;
     padding-top: 6rem;
@@ -79,10 +84,17 @@ body{
     align-items: center;
     justify-content: space-around;
     list-style-type: none;
+    width: 100%;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    background: var(--color)
 }
 
 .header .navbar ul li{
     margin: 0 1.5rem;
+    color: #fff;
+    letter-spacing: .1rem;
+    font-weight: 400;
 }
 
 .header .navbar ul li a{
@@ -182,7 +194,169 @@ body{
 }
 
 
+.ThroneRoom{
+    min-height: 100vh;
+    width: 100vw;
+    text-align:center;
+    position: relative;
+    overflow: hidden;
+}
 
+.ThroneRoom .row{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    padding: 0 4rem;
+}
+
+.ThroneRoom .row .image img{
+    width: 50vw;
+}
+
+.ThroneRoom .row .content{
+    text-align: left;
+}
+
+.ThroneRoom .row .content h3{
+    font-size: 3rem;
+    color: var(--color);
+}
+
+.ThroneRoom .row .content p{
+    font-size: 1.5rem;
+    color: #333;
+    padding: 1rem 0;
+}
+
+.bookcover{
+    min-height: 100vh;
+    width: 100vw;
+    text-align:center;
+    background-color: #222;
+    
+}
+
+.bookcover .heading{
+    color: #fff;
+}
+
+.bookcover .heading::before, .poster .heading::after{
+    border-color: #fff;
+}
+
+.bookcover .row{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    padding: 0 4rem;
+}
+
+
+
+.bookcover .row .card .image{
+    margin: 3rem 0;
+    padding-top: 4rem;
+}
+
+.bookcover .row .card .image img{
+    width: 20vw;
+}
+
+.bookcover .row .card .content h3{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.bookcover .row .card .content span{
+    font-size: 1.5rem;
+    color: #eee;
+}
+
+.bookDesign{
+    min-height: 100vh;
+    width: 100vw;
+    text-align:center;
+}
+
+.bookDesign .row{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.bookDesign .row .image img{
+    height: 60vh;
+    width: 40vw;
+}
+
+.bookDesign .row .content{
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.bookbanner{
+    min-height: 100vh;
+    width: 100vw;
+    text-align:center;
+}
+
+.bookbanner .row{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.bookbanner .row .image img{
+    height: 60vh;
+    width: 40vw;
+}
+
+.bookbanner .row .content{
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.poster{
+    min-height: 100vh;
+    width: 100vw;
+    text-align:center;
+}
+
+.poster .row{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.poster .row .image img{
+    height: 60vh;
+    width: 40vw;
+}
+
+.poster .row .content{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    background: var(--color)
+
+}
+
+.footer h1{
+    color: #fff;
+    letter-spacing: .1rem;
+    font-weight: 400;
+
+}
 
 
 
@@ -255,8 +429,50 @@ body{
         width: 100vw;
     }
 
-
+    .ThroneRoom .row{
+        flex-flow:column-reverse;
     }
+
+    .ThroneRoom .row:nth-child(even){
+        flex-flow: column;
+    }
+
+    .ThroneRoom .row .image img{
+        width: 100vw;
+    }
+
+    .ThroneRoom .row .content{
+        width: 100vw;
+    }
+
+    .ThroneRoom .row .content{
+        padding: 0;
+    }
+
+    .ThroneRoom .row{
+        flex-flow: column;
+    }
+
+    .ThroneRoom .row .image img{
+        width: 100vw;
+    }
+
+    .ThroneRoom .row .content{
+        width: 100vw;
+    }
+
+
+}
+
+@media (max-width:550px){
+    .footer{
+        flex-flow: column;
+    }
+
+    .footer h1{
+        text-align: center;
+    }
+}
 
 
 
