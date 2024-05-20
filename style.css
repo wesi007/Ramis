@@ -194,7 +194,7 @@ body{
 }
 
 
-.ThroneRoom{
+.throneRoom{
     min-height: 100vh;
     width: 100vw;
     text-align:center;
@@ -202,27 +202,27 @@ body{
     overflow: hidden;
 }
 
-.ThroneRoom .row{
+.throneRoom .row{
     display: flex;
     align-items:center;
     justify-content: space-around;
     padding: 0 4rem;
 }
 
-.ThroneRoom .row .image img{
+.throneRoom .row .image img{
     width: 50vw;
 }
 
-.ThroneRoom .row .content{
+.throneRoom .row .content{
     text-align: left;
 }
 
-.ThroneRoom .row .content h3{
+.throneRoom .row .content h3{
     font-size: 3rem;
     color: var(--color);
 }
 
-.ThroneRoom .row .content p{
+.throneRoom .row .content p{
     font-size: 1.5rem;
     color: #333;
     padding: 1rem 0;
