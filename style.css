@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=:wAldo the Apacheght@300;400;500;600;700&display=swap');
 
 :root{
-    --color:#e9091c;
+    --color:#e9c009;
 }
 
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'wAldo the Apacheght', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -116,7 +116,8 @@ body{
 .home{
     min-height: 100vh;
     width:100vw;
-    background: linear-gradient(red,var(--color));
+    background: black;
+    opacity: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,16 +139,17 @@ body{
     color:#eee;
     font-size: 2.5rem;
     font-weight: 300;
+    margin-top: 3rem;
 }
 
 .home button{
     height: 3rem;
     width: 17rem;
-    background:#fff;
+    background: #e9c009;
     color:#555;
     cursor:pointer;
     border:none;
-    margin-top: 1rem;
+    margin-top: 10rem;
     font-size: 2rem;
     font-weight: 300;
     box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
@@ -210,7 +212,7 @@ body{
 }
 
 .throneRoom .row .image img{
-    width: 50vw;
+    width: 40vw;
 }
 
 .throneRoom .row .content{
@@ -292,6 +294,7 @@ body{
 .bookDesign .row .content{
     text-align: center;
     font-size: 2rem;
+    margin-top: 2rem;
 }
 
 
@@ -305,16 +308,18 @@ body{
     display: flex;
     align-items:center;
     justify-content: center;
+    margin-top: 3rem;
 }
 
 .bookbanner .row .image img{
-    height: 60vh;
-    width: 40vw;
+    height: 50vh;
+    width: 25vw;
 }
 
 .bookbanner .row .content{
     text-align: center;
     font-size: 2rem;
+    margin-top: 2rem;
 }
 
 
@@ -331,13 +336,14 @@ body{
 }
 
 .poster .row .image img{
-    height: 60vh;
+    height: 80vh;
     width: 40vw;
 }
 
 .poster .row .content{
     text-align: center;
     font-size: 2rem;
+    margin-top: ;
 }
 
 .footer{
